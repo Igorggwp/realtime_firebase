@@ -6,11 +6,11 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: "AIzaSyDtO7T045fd2TRfr0YQGUGYgL1KdPGSakg",
-      appId: "1:905251378642:android:2282f0d17b9f89b0a2e40b",
-      messagingSenderId: "905251378642",
-      projectId: "campaign-viewer-1",
-      databaseURL: "https://campaign-viewer-1-default-rtdb.firebaseio.com",
+      apiKey: "",
+      appId: "",
+      messagingSenderId: "",
+      projectId: "",
+      databaseURL: "",
     ),
   );
   runApp(MyApp());
